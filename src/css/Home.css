@@ -44,6 +44,22 @@
     cursor: pointer;
 }
 
+.home .loading {
+  font-family: "Inter", sans-serif;
+  color: #8B5CF6;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.home .no-movies{
+  color: #8B5CF6;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+}
+
 @media (max-width: 768px) {
   .search-form {
     flex-direction: column;
